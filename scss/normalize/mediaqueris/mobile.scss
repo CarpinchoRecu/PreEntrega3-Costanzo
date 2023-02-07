@@ -1,44 +1,47 @@
-@media screen and (max-width: 480px){
+@media screen and (max-width: 480px) {
+    #grid-general {
+        grid-template-columns: 100%;
+    }
+
     .size-logo {
         height: 95px;
         width: 95px;
     }
 
-    .txt-title{
+    .txt-title {
         font-size: 80px;
     }
-    
-    .txt-subtitle{
+
+    .txt-subtitle {
         font-size: 20px;
     }
 
-    .txt-general{
+    .txt-general {
         font-size: 17px;
     }
 
-    .txt-general2{
+    .txt-general2 {
         font-size: 21px;
     }
 
-    .position-logo{
+    .position-logo {
         top: 1.5rem;
         left: 0.8rem;
     }
 
-    .position-title{
+    .position-title {
         position: relative;
-        right: 1rem;
+        right: 1.4rem;
         top: 0.7rem;
     }
-    
-    .position-subtitle{
+
+    .position-subtitle {
         position: relative;
-        left: 1rem;
         right: 0;
-        bottom: 1rem;
+        bottom: 0.8rem;
     }
 
-    .size-carousel{
+    .size-carousel {
         width: 95% !important;
         height: 95% !important;
     }
