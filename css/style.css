@@ -236,6 +236,8 @@ body {
     width: 95px; }
   .txt-title {
     font-size: 80px; }
+  .font-title {
+    font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif; }
   .txt-subtitle {
     font-size: 20px; }
   .txt-general {
