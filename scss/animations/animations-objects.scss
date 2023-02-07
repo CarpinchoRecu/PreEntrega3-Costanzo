@@ -1,0 +1,66 @@
+@keyframes networks {
+    from {
+        transform: translateY(-0.4rem);
+    }
+
+    to {
+        transform: translateY(0);
+    }
+}
+
+.animation-networks {
+    position: relative;
+
+    &:hover {
+        animation: networks 0.4s ease-in-out;
+        transform: translateY(0);
+    }
+}
+
+.container-main {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+
+    .box-animated {
+        position: relative;
+        width: 20rem;
+        height: 21rem;
+        margin: 3rem;
+    }
+
+    .box-animated:hover .box-img {
+        transform: translate(-1.3rem, -1.3rem);
+    }
+
+    .box-animated:hover .box-txt {
+        transform: translate(-2.8rem, -2.8rem);
+    }
+}
+
+.box-img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    transition: all 0.5s ease-in-out;
+
+    img {
+        object-fit: cover;
+        resize: both;
+    }
+}
+
+.box-txt {
+    position: absolute;
+    transition: all 0.5s ease-in-out;
+
+    h2 {
+        color: rgb(138, 127, 127);
+        opacity: 0.8;
+    }
+}

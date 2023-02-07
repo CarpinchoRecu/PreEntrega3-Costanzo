@@ -1,0 +1,50 @@
+@media screen and (max-width: 480px){
+    .size-logo {
+        height: 95px;
+        width: 95px;
+    }
+
+    .txt-title{
+        font-size: 80px;
+    }
+    
+    .txt-subtitle{
+        font-size: 20px;
+    }
+
+    .txt-general{
+        font-size: 17px;
+    }
+
+    .txt-general2{
+        font-size: 21px;
+    }
+
+    .position-logo{
+        top: 1.5rem;
+        left: 1.7rem;
+    }
+
+    .position-title{
+        position: relative;
+        right: 1rem;
+        top: 0.7rem;
+    }
+    
+    .position-subtitle{
+        position: relative;
+        left: 1rem;
+        right: 0;
+        bottom: 1rem;
+    }
+
+    .size-carousel{
+        width: 95% !important;
+        height: 95% !important;
+    }
+
+    .size-mapa {
+        height: 95%;
+        width: 95%;
+    }
+}
