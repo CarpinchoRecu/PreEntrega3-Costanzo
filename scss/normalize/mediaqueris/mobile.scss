@@ -4,8 +4,8 @@
     }
 
     .size-logo {
-        height: 95px;
-        width: 95px;
+        height: 80px;
+        width: 80px;
     }
 
     .txt-title {
@@ -29,8 +29,8 @@
     }
 
     .position-logo {
-        top: 1.5rem;
-        left: 0.8rem;
+        top: 1.9rem;
+        left: 0.5rem;
     }
 
     .position-title {
@@ -54,4 +54,18 @@
         height: 95%;
         width: 95%;
     }
-}
+
+    .container-main {
+        height: 100%;
+        width: 100%;
+
+        .box-animated {
+            &:hover .box-img {
+                transform: translate(-1.3rem, -1.3rem);
+            }
+
+            &:hover .box-txt {
+                transform: translate(-1.8rem, -2.8rem);
+            }
+        }
+    }}
