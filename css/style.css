@@ -82,11 +82,15 @@
 }
 
 @keyframes networks {
-  from {
+  0% {
+    transform: translateY(0);
+  }
+
+  50% {
     transform: translateY(-0.4rem);
   }
 
-  to {
+  100% {
     transform: translateY(0);
   }
 }
@@ -194,11 +198,6 @@
   width: 100%;
 }
 
-.size-mapa {
-  height: 50%;
-  width: 50%;
-}
-
 .size-networks {
   height: 55px;
   width: 55px;
@@ -276,11 +275,6 @@ body {
   .size-logo {
     height: 120px;
     width: 120px;
-  }
-
-  .size-mapa {
-    height: 90%;
-    width: 90%;
   }
 
   .size-carousel {
@@ -372,11 +366,6 @@ body {
   .size-carousel {
     width: 95% !important;
     height: 95% !important;
-  }
-
-  .size-mapa {
-    height: 95%;
-    width: 95%;
   }
 
   .container-main {

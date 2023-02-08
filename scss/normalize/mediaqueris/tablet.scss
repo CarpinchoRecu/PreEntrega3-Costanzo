@@ -1,4 +1,4 @@
-@media screen and (max-width: 720px){
+@media screen and (max-width: 720px) {
     .flex-row {
         flex-wrap: wrap;
     }
@@ -8,44 +8,39 @@
         width: 120px;
     }
 
-    .size-mapa {
-        height: 90%;
-        width: 90%;
-    }
-
-    .size-carousel{
+    .size-carousel {
         width: 80% !important;
         height: 80% !important;
     }
 
-    .position-logo{
+    .position-logo {
         top: 2rem;
         left: 2rem;
     }
 
-    .txt-title{
+    .txt-title {
         font-size: 110px;
     }
-    
-    .txt-subtitle{
+
+    .txt-subtitle {
         font-size: 32px;
     }
 
-    .txt-general{
+    .txt-general {
         font-size: 25px;
     }
 
-    .txt-general2{
+    .txt-general2 {
         font-size: 30px;
     }
 
-    .position-title{
+    .position-title {
         position: relative;
         right: 3.5rem;
         top: 0.5rem;
     }
-    
-    .position-subtitle{
+
+    .position-subtitle {
         position: relative;
         right: 0.8rem;
         bottom: 1.7rem;

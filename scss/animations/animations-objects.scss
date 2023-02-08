@@ -1,9 +1,14 @@
 @keyframes networks {
-    from {
+
+    0% {
+        transform: translateY(0);
+    }
+
+    50% {
         transform: translateY(-0.4rem);
     }
 
-    to {
+    100% {
         transform: translateY(0);
     }
 }
