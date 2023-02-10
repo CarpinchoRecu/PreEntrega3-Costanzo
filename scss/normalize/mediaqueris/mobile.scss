@@ -1,6 +1,7 @@
 @media screen and (max-width: 480px) {
     #grid-general {
         grid-template-columns: 100%;
+        grid-template-rows: auto auto auto auto;
     }
 
     .size-logo {
@@ -29,20 +30,19 @@
     }
 
     .position-logo {
-        top: 1.9rem;
+        top: 1.7rem;
         left: 0.5rem;
     }
 
     .position-title {
-        position: relative;
-        right: 1.4rem;
-        top: 0.7rem;
+        right: 0.4rem;
+        top: 0;
     }
 
     .position-subtitle {
         position: relative;
         right: 0;
-        bottom: 0.8rem;
+        bottom: 1rem;
     }
 
     .size-carousel {

@@ -2,6 +2,11 @@
     border-radius: 50% !important;
 }
 
-.border-container-bottom{
+.border-container-bottom {
     border-bottom-style: solid;
+    box-shadow: 2px 1px 6px #a59191;
+}
+
+.border-shadow {
+    text-shadow: 2px 3px 5px #b9b0b0;
 }
